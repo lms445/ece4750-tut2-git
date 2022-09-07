@@ -16,3 +16,6 @@ jobs:
 
       # Use grep to look for the word blueberry in the fruit.txt file
       - run: grep blueberry fruit.txt
+
+      # Additionally look for the word apple in the fruit.txt file
+      - run: grep apple fruit.txt
